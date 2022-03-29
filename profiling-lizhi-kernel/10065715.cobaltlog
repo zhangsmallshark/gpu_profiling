@@ -1,0 +1,24 @@
+Jobid: 10065715
+qsub -I -n 1 -t 00:20:00 -q single-gpu -A sbi-fair
+Tue Mar 29 02:33:36 2022 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/sunbaixi/gpu_profiling/profiling-lizhi-kernel
+jobid 10065715 submitted from terminal /dev/pts/19
+Tue Mar 29 02:33:52 2022 +0000 (UTC) 
+Tue Mar 29 02:33:52 2022 +0000 (UTC) Command: '/usr/bin/ssh' 'thetagpu11-gpu0' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.10065715' '--jobid' '10065715' '--cwd' '/gpfs/mira-home/sunbaixi/gpu_profiling/profiling-lizhi-kernel' '--env' 'COBALT_JOBID=10065715' '/bin/sleep' '1200'
+Tue Mar 29 02:33:52 2022 +0000 (UTC) 
+Tue Mar 29 02:33:52 2022 +0000 (UTC) Environment:
+Tue Mar 29 02:33:52 2022 +0000 (UTC) SHELL=/bin/bash
+Tue Mar 29 02:33:52 2022 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpwCEb6A
+Tue Mar 29 02:33:52 2022 +0000 (UTC) COBALT_PARTNAME=thetagpu11-gpu0
+Tue Mar 29 02:33:52 2022 +0000 (UTC) COBALT_JOBID=10065715
+Tue Mar 29 02:33:52 2022 +0000 (UTC) COBALT_STARTTIME=1648521222
+Tue Mar 29 02:33:52 2022 +0000 (UTC) LOGNAME=sunbaixi
+Tue Mar 29 02:33:52 2022 +0000 (UTC) USER=sunbaixi
+Tue Mar 29 02:33:52 2022 +0000 (UTC) COBALT_ENDTIME=1648522422
+Tue Mar 29 02:33:52 2022 +0000 (UTC) COBALT_PARTSIZE=1
+Tue Mar 29 02:33:52 2022 +0000 (UTC) HOME=/home/sunbaixi
+Tue Mar 29 02:33:52 2022 +0000 (UTC) COBALT_JOBSIZE=1
+Tue Mar 29 02:33:52 2022 +0000 (UTC) 
+Tue Mar 29 02:33:52 2022 +0000 (UTC) Info: stdin received from /dev/null
+Tue Mar 29 02:33:52 2022 +0000 (UTC) Info: stdout sent to /gpfs/mira-home/sunbaixi/gpu_profiling/profiling-lizhi-kernel/10065715.output
+Tue Mar 29 02:33:52 2022 +0000 (UTC) Info: stderr sent to /gpfs/mira-home/sunbaixi/gpu_profiling/profiling-lizhi-kernel/10065715.error
+Tue Mar 29 02:33:52 2022 +0000 (UTC) 
